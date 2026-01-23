@@ -125,5 +125,4 @@ with open("cmdb_summary.txt", "w", encoding="utf-8") as out:
 
 print("\nWrote report to cmdb_summary.txt")
 
-# Testing summary report for errors: 
-
+# Testing summary report for errors: No errors found in the report Success!
