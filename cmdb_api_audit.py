@@ -1,4 +1,5 @@
 import requests
+from requests.exceptions import ConnectionError, Timeout, RequestException
 
 # Created a api url for the headers and created headers to load requests from the api key
 API_URL = "https://my.api.mockaroo.com/ironclad/cmdb.json"
@@ -7,8 +8,28 @@ headers = {
     "X-API-Key": "cf7bbbd0" # Loading API key into headers
 }
 
-response = requests.get(API_URL, headers=headers, timeout=10)
-print("Status code:", response.status_code)
+# Changed the Response = Request for challenge A
+try:
+    response = requests.get(API_URL, headers=headers, timeout=10)
+    print("Status code:", response.status_code)
+except ConnectionError:
+    print("Network error: unable to connect to API host.") # Handling connection errors
+    raise SystemExit
+except Timeout:
+    print("Network error: request timed out.") # Handling timeout errors
+    raise SystemExit
+except RequestException as e:
+    print("Unexpected request error:", e) # Handling other request exceptions
+    raise SystemExit
+
+# Checking for malformed JSON in the response: Success!
+try:
+    data = response.json()
+except ValueError:
+    print("Error: API returned invalid JSON.")  # Handling malformed JSON
+    print("Response preview:", response.text[:200])
+    raise SystemExit
+
 
 # Check if the request was successful
 if response.status_code != 200:
