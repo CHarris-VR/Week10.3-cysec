@@ -1,8 +1,10 @@
 import requests
 
-# had to check for correct import settings
-API_URL = 'https://my.api.mockaroo.com/ironclad/cmdb.json'
+API_URL = "https://my.api.mockaroo.com/ironclad/cmdb.json"
 
-response = requests.get(API_URL, timeout=10)
-print("Status code:", response.status_code) # Success 1
+headers = {
+    "X-API-Key": "cf7bbbd0"
+}
 
+response = requests.get(API_URL, headers=headers, timeout=10)
+print("Status code:", response.status_code)
