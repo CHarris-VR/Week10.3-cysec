@@ -149,3 +149,65 @@ Internet-Exposed Assets:
 - compute-7 | owner=Engineering | crit=high | env=dev
 - eng-6 | owner=Finance | crit=medium | env=dev
 - finance-4 | owner=HR | crit=high | env=prod
+
+High Priority Assets (Prod + Exposed/Critical):
+- eng-24 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
+- web-16 | owner=IT | exposed=True | crit=low | env=prod | risk=MEDIUM
+- finance-24 | owner=HR | exposed=True | crit=high | env=prod | risk=HIGH
+- web-26 | owner=Finance | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- finance-35 | owner=IT | exposed=True | crit=high | env=prod | risk=HIGH
+- eng-22 | owner=HR | exposed=True | crit=high | env=prod | risk=HIGH
+- finance-40 | owner=Security | exposed=False | crit=high | env=prod | risk=MEDIUM
+- compute-13 | owner=IT | exposed=False | crit=high | env=prod | risk=MEDIUM
+- finance-22 | owner=HR | exposed=False | crit=high | env=prod | risk=MEDIUM
+- compute-34 | owner=Engineering | exposed=False | crit=high | env=prod | risk=MEDIUM
+- hr-25 | owner=Security | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- eng-14 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
+- web-47 | owner=IT | exposed=False | crit=high | env=prod | risk=MEDIUM
+- web-36 | owner=Finance | exposed=True | crit=high | env=prod | risk=HIGH
+- eng-48 | owner=Executive Administration | exposed=True | crit=high | env=prod | risk=HIGH
+- web-16 | owner=Finance | exposed=True | crit=low | env=prod | risk=MEDIUM
+- compute-32 | owner=Engineering | exposed=True | crit=high | env=prod | risk=HIGH
+- finance-47 | owner=IT | exposed=False | crit=high | env=prod | risk=MEDIUM
+- web-28 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
+- hr-26 | owner=Finance | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- eng-35 | owner=IT | exposed=True | crit=low | env=prod | risk=MEDIUM
+- hr-30 | owner=Finance | exposed=True | crit=low | env=prod | risk=MEDIUM
+- finance-29 | owner=Finance | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- hr-19 | owner=Security | exposed=False | crit=high | env=prod | risk=MEDIUM
+- eng-30 | owner=Finance | exposed=False | crit=high | env=prod | risk=MEDIUM
+- hr-44 | owner=Engineering | exposed=True | crit=low | env=prod | risk=MEDIUM
+- db-46 | owner=Security | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- db-50 | owner=Finance | exposed=True | crit=low | env=prod | risk=MEDIUM
+- db-41 | owner=Executive Administration | exposed=True | crit=high | env=prod | risk=HIGH
+- hr-26 | owner=Security | exposed=True | crit=high | env=prod | risk=HIGH
+- hr-4 | owner=Engineering | exposed=True | crit=low | env=prod | risk=MEDIUM
+- db-38 | owner=Security | exposed=False | crit=high | env=prod | risk=MEDIUM
+- compute-3 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
+- web-9 | owner=Finance | exposed=True | crit=high | env=prod | risk=HIGH
+- hr-42 | owner=HR | exposed=False | crit=high | env=prod | risk=MEDIUM
+- db-4 | owner=Finance | exposed=True | crit=high | env=prod | risk=HIGH
+- finance-16 | owner=Finance | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- hr-37 | owner=Finance | exposed=True | crit=high | env=prod | risk=HIGH
+- hr-40 | owner=Finance | exposed=False | crit=high | env=prod | risk=MEDIUM
+- db-30 | owner=Finance | exposed=True | crit=low | env=prod | risk=MEDIUM
+- hr-10 | owner=Security | exposed=False | crit=high | env=prod | risk=MEDIUM
+- web-9 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
+- compute-3 | owner=Finance | exposed=True | crit=high | env=prod | risk=HIGH
+- compute-4 | owner=Finance | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- compute-5 | owner=Finance | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- db-10 | owner=HR | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- eng-11 | owner=IT | exposed=True | crit=high | env=prod | risk=HIGH
+- compute-14 | owner=Engineering | exposed=True | crit=high | env=prod | risk=HIGH
+- hr-33 | owner=Engineering | exposed=True | crit=low | env=prod | risk=MEDIUM
+- db-47 | owner=Security | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- compute-21 | owner=HR | exposed=True | crit=low | env=prod | risk=MEDIUM
+- eng-29 | owner=Finance | exposed=True | crit=low | env=prod | risk=MEDIUM
+- finance-13 | owner=Finance | exposed=False | crit=high | env=prod | risk=MEDIUM
+- web-42 | owner=Security | exposed=False | crit=high | env=prod | risk=MEDIUM
+- web-12 | owner=IT | exposed=True | crit=low | env=prod | risk=MEDIUM
+- eng-24 | owner=HR | exposed=True | crit=low | env=prod | risk=MEDIUM
+- hr-23 | owner=Engineering | exposed=False | crit=high | env=prod | risk=MEDIUM
+- web-7 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
+- compute-15 | owner=Security | exposed=True | crit=medium | env=prod | risk=MEDIUM
+- finance-4 | owner=HR | exposed=True | crit=high | env=prod | risk=HIGH

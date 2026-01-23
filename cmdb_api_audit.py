@@ -93,6 +93,23 @@ assets = []
 for record in data:
     assets.append(Asset(record))
 
+# Reviewing assets based on priority (Challenge B)
+high_priority = [
+    a for a in assets
+    if str(a.environment).lower() == "prod"
+    and (a.internet_exposed or str(a.criticality).lower() == "high")
+]
+
+print("\n=== High Priority Review (Prod + Exposed/Critical) ===")
+if high_priority:
+    for a in high_priority:
+        print(
+            f"{a.hostname} | owner={a.owner_team} | "
+            f"exposed={a.internet_exposed} | crit={a.criticality} | "
+            f"env={a.environment} | risk={a.risk_level()}"
+        )
+else:
+    print("None found.")
 print("\nFirst asset object:")
 print(assets[0] if assets else "No assets")
 
@@ -140,10 +157,20 @@ with open("cmdb_summary.txt", "w", encoding="utf-8") as out:
     for level, count in risk_counts.items():
         out.write(f"- {level}: {count}\n")
 
+    # Internet-Exposed Assets
     out.write("\nInternet-Exposed Assets:\n")
     for a in exposed:
         out.write(f"- {a.hostname} | owner={a.owner_team} | crit={a.criticality} | env={a.environment}\n")
+    
+    # High Priority Assets
+    out.write("\nHigh Priority Assets (Prod + Exposed/Critical):\n")
+    if high_priority:
+        for a in high_priority:
+            out.write(f"- {a.hostname} | owner={a.owner_team} | exposed={a.internet_exposed} | crit={a.criticality} | env={a.environment} | risk={a.risk_level()}\n")
+    else:
+        out.write("None found.\n")
 
+    
 print("\nWrote report to cmdb_summary.txt")
 
 # Testing summary report for errors: No errors found in the report Success!
