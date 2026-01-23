@@ -211,3 +211,8 @@ High Priority Assets (Prod + Exposed/Critical):
 - web-7 | owner=Executive Administration | exposed=True | crit=low | env=prod | risk=MEDIUM
 - compute-15 | owner=Security | exposed=True | crit=medium | env=prod | risk=MEDIUM
 - finance-4 | owner=HR | exposed=True | crit=high | env=prod | risk=HIGH
+
+Top 3 Owner Teams by High Risk Assets:
+- Executive Administration: 12 high risk assets
+- Engineering: 11 high risk assets
+- Finance: 9 high risk assets

@@ -100,6 +100,7 @@ high_priority = [
     and (a.internet_exposed or str(a.criticality).lower() == "high")
 ]
 
+# Printing high priority assets
 print("\n=== High Priority Review (Prod + Exposed/Critical) ===")
 if high_priority:
     for a in high_priority:
@@ -113,6 +114,22 @@ else:
 print("\nFirst asset object:")
 print(assets[0] if assets else "No assets")
 
+# Challenge C: Generate Top 3 owner teams by high risk
+high_risk_by_team = {}
+for a in assets:
+    if a.risk_level() == "HIGH":
+        team = a.owner_team
+        high_risk_by_team[team] = high_risk_by_team.get(team, 0) + 1
+
+# Sorting and getting top 3 teams
+top_3_teams = sorted(high_risk_by_team.items(), key=lambda x: x[1], reverse=True)[:3]
+print("\n=== Top 3 Owner Teams by High Risk Assets ===")
+if top_3_teams:
+    for team, count in top_3_teams:
+        print(f"{team}: {count} high risk assets")
+else:
+    print("No high risk assets found.")
+
 # Counting assets by environment
 env_counts = {}
 for a in assets:
@@ -122,7 +139,6 @@ for a in assets:
 print("\n=== Assets by Environment ===")
 for env, count in env_counts.items():
     print(env, count)
-
 
 # Counting assets by risk level
 risk_counts = {"HIGH": 0, "MEDIUM": 0, "LOW": 0}
@@ -161,16 +177,23 @@ with open("cmdb_summary.txt", "w", encoding="utf-8") as out:
     out.write("\nInternet-Exposed Assets:\n")
     for a in exposed:
         out.write(f"- {a.hostname} | owner={a.owner_team} | crit={a.criticality} | env={a.environment}\n")
-    
-    # High Priority Assets
+
+    # High Priority Assets : Success!
     out.write("\nHigh Priority Assets (Prod + Exposed/Critical):\n")
     if high_priority:
         for a in high_priority:
             out.write(f"- {a.hostname} | owner={a.owner_team} | exposed={a.internet_exposed} | crit={a.criticality} | env={a.environment} | risk={a.risk_level()}\n")
     else:
         out.write("None found.\n")
-
     
-print("\nWrote report to cmdb_summary.txt")
+    # Top 3 Owner Teams by High Risk Assets as header for challenge C
+    out.write("\nTop 3 Owner Teams by High Risk Assets:\n")
+    if top_3_teams:
+        for team, count in top_3_teams:
+            out.write(f"- {team}: {count} high risk assets\n")
+    else:
+        out.write("No high risk assets found.\n")
+
+    print("\nWrote report to cmdb_summary.txt")
 
 # Testing summary report for errors: No errors found in the report Success!
