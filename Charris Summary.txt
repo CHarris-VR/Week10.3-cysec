@@ -1,0 +1,11 @@
+This challenge was certainly difficult. I struggled heavily with this.
+After several trials and tribulations of trying to figure the code out
+I seemed to have learned several ways that you can utilize various features and tools within VScode and from
+various other sources. I also used some ChatGPT to help me figure out better organization and methods for calls of 
+Dictionaries, classes, defs and various other things in code to make it more organized when printing to a file.
+
+ I have several things to learn and will be spending more time on specifics of what I should improve on with this lesson.
+
+ Link to Github: 
+
+ https://github.com/CHarris-VR/Week10.3-cysec
