@@ -1,5 +1,9 @@
 import requests
+# Importing specific exceptions from requests module Clallenge A
 from requests.exceptions import ConnectionError, Timeout, RequestException
+
+# Challenge D import datetime module
+from datetime import datetime
 
 # Created a api url for the headers and created headers to load requests from the api key
 API_URL = "https://my.api.mockaroo.com/ironclad/cmdb.json"
@@ -85,6 +89,15 @@ class Asset:
                 f"owner={self.owner_team} exposed={self.internet_exposed} "
                 f"crit={self.criticality} last_seen={self.last_seen} risk={self.risk_level()}")
     
+    # Added days_since_last_seen method for Challenge D in MM/DD/YYYY format
+    def days_since_last_seen(self) -> int:
+        try:
+            last_seen_date = datetime.strptime(self.last_seen, "%m/%d/%Y")
+            delta = datetime.now() - last_seen_date
+            return delta.days
+        except ValueError:
+            return -1  # Return -1 if date format is incorrect
+    
     # Checking for failures in the Asset class: No failures found
 
 
@@ -92,6 +105,24 @@ class Asset:
 assets = []
 for record in data:
     assets.append(Asset(record))
+
+# challenge D : Listing assets not seen in the last 30 days
+stale_assets = []
+for a in assets:
+    days = a.days_since_last_seen()
+    if days is not None and days >= 30:
+        stale_assets.append((a))
+print("\n=== Stale Assets (Not seen in last 30 days) ===")
+
+# print total stale assets (30_ days )
+print(f"Total stale assets: {len(stale_assets)}")
+
+
+for a in stale_assets:
+    print(
+        f"{a.hostname} | owner={a.owner_team} | last_seen={a.last_seen} | days_since_last_seen={a.days_since_last_seen()}"
+        f"last_seen={a.last_seen} | days_ago={a.days_since_last_seen()} | risk={a.risk_level()}"
+    )
 
 # Reviewing assets based on priority (Challenge B)
 high_priority = [
@@ -173,27 +204,32 @@ with open("cmdb_summary.txt", "w", encoding="utf-8") as out:
     for level, count in risk_counts.items():
         out.write(f"- {level}: {count}\n")
 
+# Assets not seen in last 30 days header for challenge D
+    out.write("\nAssets not seen in last 30 days (30+ days):\n")
+    out.write(f"Total stale assets: {len(stale_assets)}\n")
+
+# Top 3 Owner Teams by High Risk Assets as header for challenge C
+    out.write("\nTop 3 Owner Teams by High Risk Assets:\n")
+    if top_3_teams:
+        for team, count in top_3_teams:
+            out.write(f"- {team}: {count} high risk assets\n")
+# High Priority Assets : Success!
+    out.write("\nHigh Priority Assets (Prod + Exposed/Critical):\n")
+    if high_priority:
+        for a in high_priority:
+            out.write(f"- {a.hostname} | owner={a.owner_team} | exposed={a.internet_exposed} | crit={a.criticality} | env={a.environment} | risk={a.risk_level()}\n")
+
     # Internet-Exposed Assets
     out.write("\nInternet-Exposed Assets:\n")
     for a in exposed:
         out.write(f"- {a.hostname} | owner={a.owner_team} | crit={a.criticality} | env={a.environment}\n")
 
-    # High Priority Assets : Success!
-    out.write("\nHigh Priority Assets (Prod + Exposed/Critical):\n")
-    if high_priority:
-        for a in high_priority:
-            out.write(f"- {a.hostname} | owner={a.owner_team} | exposed={a.internet_exposed} | crit={a.criticality} | env={a.environment} | risk={a.risk_level()}\n")
-    else:
-        out.write("None found.\n")
-    
-    # Top 3 Owner Teams by High Risk Assets as header for challenge C
-    out.write("\nTop 3 Owner Teams by High Risk Assets:\n")
-    if top_3_teams:
-        for team, count in top_3_teams:
-            out.write(f"- {team}: {count} high risk assets\n")
-    else:
-        out.write("No high risk assets found.\n")
-
-    print("\nWrote report to cmdb_summary.txt")
+# print out assets not seein in 30 days for challenge D
+    out.write("\nStale Assets (Not seen in last 30 days):\n")
+    if stale_assets:
+        for a in stale_assets:
+            out.write(f"- {a.hostname} | owner={a.owner_team} | last_seen={a.last_seen} | days_since_last_seen={a.days_since_last_seen()} | risk={a.risk_level()}\n")
+ 
+print("\nWrote report to cmdb_summary.txt")
 
 # Testing summary report for errors: No errors found in the report Success!
