@@ -66,4 +66,64 @@ class Asset:
     
     # Checking for failures in the Asset class: No failures found
 
-    
+
+# Creating Asset objects from the data
+assets = []
+for record in data:
+    assets.append(Asset(record))
+
+print("\nFirst asset object:")
+print(assets[0] if assets else "No assets")
+
+# Counting assets by environment
+env_counts = {}
+for a in assets:
+    env = a.environment
+    env_counts[env] = env_counts.get(env, 0) + 1
+
+print("\n=== Assets by Environment ===")
+for env, count in env_counts.items():
+    print(env, count)
+
+
+# Counting assets by risk level
+risk_counts = {"HIGH": 0, "MEDIUM": 0, "LOW": 0}
+for a in assets:
+    risk_counts[a.risk_level()] += 1
+
+print("\n=== Assets by Risk Level ===")
+for k, v in risk_counts.items():
+    print(k, v)
+
+# Listing internet-exposed assets
+exposed = [a for a in assets if a.internet_exposed]
+
+print("\n=== Internet-Exposed Assets ===")
+for a in exposed:
+    print(f"{a.hostname} | owner={a.owner_team} | crit={a.criticality} | env={a.environment}")
+
+
+# Writing summary report to a text file
+with open("cmdb_summary.txt", "w", encoding="utf-8") as out:
+    out.write("Ironclad CMDB API Audit Report\n")
+    out.write("==============================\n")
+    out.write(f"URL: {API_URL}\n")
+    out.write(f"Status: {response.status_code}\n")
+    out.write(f"Total assets: {len(assets)}\n\n")
+
+    out.write("Assets by Environment:\n")
+    for env, count in env_counts.items():
+        out.write(f"- {env}: {count}\n")
+
+    out.write("\nAssets by Risk Level:\n")
+    for level, count in risk_counts.items():
+        out.write(f"- {level}: {count}\n")
+
+    out.write("\nInternet-Exposed Assets:\n")
+    for a in exposed:
+        out.write(f"- {a.hostname} | owner={a.owner_team} | crit={a.criticality} | env={a.environment}\n")
+
+print("\nWrote report to cmdb_summary.txt")
+
+# Testing summary report for errors: 
+
