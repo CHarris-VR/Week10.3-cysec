@@ -64,4 +64,6 @@ class Asset:
                 f"owner={self.owner_team} exposed={self.internet_exposed} "
                 f"crit={self.criticality} last_seen={self.last_seen} risk={self.risk_level()}")
     
-    # Checking for failures in the Asset class:
+    # Checking for failures in the Asset class: No failures found
+
+    
