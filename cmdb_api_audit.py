@@ -48,7 +48,8 @@ if response.status_code != 200:
 # Parse the JSON response
 print("Type of data:", type(data))
 
-if isinstance(data, list) and data:
+# Fixed data structure check per Charles feedback! Thanks Charles!
+if data and isinstance(data, list) and len(data) > 0:
     print("Number of assets:", len(data))
     print("Fields available:", list(data[0].keys()))
     print("First asset preview:", data[0])
