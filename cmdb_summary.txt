@@ -15,7 +15,7 @@ Assets by Risk Level:
 - LOW: 113
 
 Assets not seen in last 30 days (30+ days):
-Total stale assets: 292
+Total stale assets: 293
 
 Top 3 Owner Teams by High Risk Assets:
 - Executive Administration: 12 high risk assets
@@ -221,295 +221,296 @@ Internet-Exposed Assets:
 - finance-4 | owner=HR | crit=high | env=prod
 
 Stale Assets (Not seen in last 30 days):
-- db-3 | owner=HR | last_seen=1/19/2025 | days_since_last_seen=369 | risk=MEDIUM
-- hr-45 | owner=Security | last_seen=9/22/2025 | days_since_last_seen=123 | risk=LOW
-- hr-16 | owner=HR | last_seen=10/12/2025 | days_since_last_seen=103 | risk=LOW
-- compute-33 | owner=Engineering | last_seen=5/24/2025 | days_since_last_seen=244 | risk=HIGH
-- web-15 | owner=Engineering | last_seen=3/11/2025 | days_since_last_seen=318 | risk=MEDIUM
-- web-15 | owner=HR | last_seen=9/21/2025 | days_since_last_seen=124 | risk=HIGH
-- compute-9 | owner=Engineering | last_seen=11/29/2025 | days_since_last_seen=55 | risk=MEDIUM
-- compute-31 | owner=HR | last_seen=6/15/2025 | days_since_last_seen=222 | risk=LOW
-- eng-24 | owner=Executive Administration | last_seen=10/6/2025 | days_since_last_seen=109 | risk=MEDIUM
-- eng-34 | owner=HR | last_seen=4/23/2025 | days_since_last_seen=275 | risk=MEDIUM
-- eng-8 | owner=Finance | last_seen=7/16/2025 | days_since_last_seen=191 | risk=MEDIUM
-- web-16 | owner=IT | last_seen=10/31/2025 | days_since_last_seen=84 | risk=MEDIUM
-- web-10 | owner=Finance | last_seen=4/11/2025 | days_since_last_seen=287 | risk=MEDIUM
-- web-10 | owner=Executive Administration | last_seen=7/31/2025 | days_since_last_seen=176 | risk=HIGH
-- finance-24 | owner=HR | last_seen=11/13/2025 | days_since_last_seen=71 | risk=HIGH
-- web-15 | owner=Engineering | last_seen=1/9/2025 | days_since_last_seen=379 | risk=HIGH
-- web-26 | owner=Finance | last_seen=11/9/2025 | days_since_last_seen=75 | risk=MEDIUM
-- web-33 | owner=IT | last_seen=1/17/2025 | days_since_last_seen=371 | risk=LOW
-- finance-24 | owner=Finance | last_seen=4/3/2025 | days_since_last_seen=295 | risk=LOW
-- finance-35 | owner=IT | last_seen=2/9/2025 | days_since_last_seen=348 | risk=HIGH
-- db-41 | owner=Finance | last_seen=12/24/2025 | days_since_last_seen=30 | risk=MEDIUM
-- compute-2 | owner=Executive Administration | last_seen=2/25/2025 | days_since_last_seen=332 | risk=LOW
-- web-31 | owner=Finance | last_seen=8/21/2025 | days_since_last_seen=155 | risk=LOW
-- web-12 | owner=IT | last_seen=8/4/2025 | days_since_last_seen=172 | risk=LOW
-- finance-14 | owner=Executive Administration | last_seen=4/16/2025 | days_since_last_seen=282 | risk=MEDIUM
-- eng-28 | owner=Security | last_seen=5/8/2025 | days_since_last_seen=260 | risk=MEDIUM
-- db-31 | owner=Engineering | last_seen=10/26/2025 | days_since_last_seen=89 | risk=HIGH
-- web-38 | owner=Engineering | last_seen=5/5/2025 | days_since_last_seen=263 | risk=MEDIUM
-- web-19 | owner=IT | last_seen=7/19/2025 | days_since_last_seen=188 | risk=LOW
-- compute-30 | owner=HR | last_seen=5/26/2025 | days_since_last_seen=242 | risk=LOW
-- db-16 | owner=Finance | last_seen=9/10/2025 | days_since_last_seen=135 | risk=LOW
-- hr-46 | owner=Executive Administration | last_seen=12/23/2025 | days_since_last_seen=31 | risk=LOW
-- web-48 | owner=IT | last_seen=3/24/2025 | days_since_last_seen=305 | risk=MEDIUM
-- compute-50 | owner=Finance | last_seen=5/29/2025 | days_since_last_seen=239 | risk=MEDIUM
-- finance-40 | owner=Security | last_seen=6/12/2025 | days_since_last_seen=225 | risk=MEDIUM
-- db-17 | owner=Engineering | last_seen=8/26/2025 | days_since_last_seen=150 | risk=MEDIUM
-- eng-10 | owner=HR | last_seen=3/13/2025 | days_since_last_seen=316 | risk=LOW
-- web-36 | owner=IT | last_seen=11/29/2025 | days_since_last_seen=55 | risk=MEDIUM
-- compute-13 | owner=IT | last_seen=12/4/2025 | days_since_last_seen=50 | risk=MEDIUM
-- finance-4 | owner=Finance | last_seen=10/9/2025 | days_since_last_seen=106 | risk=LOW
-- finance-29 | owner=Security | last_seen=3/31/2025 | days_since_last_seen=298 | risk=MEDIUM
-- compute-43 | owner=Security | last_seen=1/11/2025 | days_since_last_seen=377 | risk=MEDIUM
-- finance-22 | owner=HR | last_seen=4/8/2025 | days_since_last_seen=290 | risk=MEDIUM
-- compute-28 | owner=IT | last_seen=2/28/2025 | days_since_last_seen=329 | risk=MEDIUM
-- web-39 | owner=Security | last_seen=9/18/2025 | days_since_last_seen=127 | risk=MEDIUM
-- finance-42 | owner=IT | last_seen=8/26/2025 | days_since_last_seen=150 | risk=LOW
-- finance-37 | owner=HR | last_seen=9/28/2025 | days_since_last_seen=117 | risk=MEDIUM
-- finance-41 | owner=Executive Administration | last_seen=10/18/2025 | days_since_last_seen=97 | risk=HIGH
-- compute-12 | owner=Executive Administration | last_seen=11/22/2025 | days_since_last_seen=62 | risk=HIGH
-- eng-15 | owner=Engineering | last_seen=8/27/2025 | days_since_last_seen=149 | risk=MEDIUM
-- compute-46 | owner=IT | last_seen=8/2/2025 | days_since_last_seen=174 | risk=MEDIUM
-- eng-21 | owner=Executive Administration | last_seen=9/8/2025 | days_since_last_seen=137 | risk=MEDIUM
-- finance-39 | owner=Engineering | last_seen=9/1/2025 | days_since_last_seen=144 | risk=LOW
-- hr-11 | owner=IT | last_seen=6/1/2025 | days_since_last_seen=236 | risk=LOW
-- finance-30 | owner=Finance | last_seen=11/27/2025 | days_since_last_seen=57 | risk=MEDIUM
-- eng-29 | owner=Executive Administration | last_seen=6/24/2025 | days_since_last_seen=213 | risk=LOW
-- compute-14 | owner=HR | last_seen=11/6/2025 | days_since_last_seen=78 | risk=MEDIUM
-- compute-15 | owner=IT | last_seen=1/4/2025 | days_since_last_seen=384 | risk=LOW
-- finance-38 | owner=Executive Administration | last_seen=7/2/2025 | days_since_last_seen=205 | risk=LOW
-- eng-32 | owner=Security | last_seen=7/8/2025 | days_since_last_seen=199 | risk=HIGH
-- hr-39 | owner=Security | last_seen=9/24/2025 | days_since_last_seen=121 | risk=LOW
-- compute-34 | owner=Engineering | last_seen=7/26/2025 | days_since_last_seen=181 | risk=MEDIUM
-- hr-33 | owner=Finance | last_seen=7/9/2025 | days_since_last_seen=198 | risk=HIGH
-- web-47 | owner=IT | last_seen=3/20/2025 | days_since_last_seen=309 | risk=MEDIUM
-- finance-18 | owner=Executive Administration | last_seen=7/3/2025 | days_since_last_seen=204 | risk=MEDIUM
-- hr-25 | owner=Security | last_seen=12/8/2025 | days_since_last_seen=46 | risk=MEDIUM
-- eng-14 | owner=Executive Administration | last_seen=12/6/2025 | days_since_last_seen=48 | risk=MEDIUM
-- finance-46 | owner=Security | last_seen=7/15/2025 | days_since_last_seen=192 | risk=LOW
-- web-47 | owner=IT | last_seen=9/4/2025 | days_since_last_seen=141 | risk=MEDIUM
-- db-12 | owner=Security | last_seen=8/15/2025 | days_since_last_seen=161 | risk=HIGH
-- web-36 | owner=Finance | last_seen=1/16/2025 | days_since_last_seen=372 | risk=HIGH
-- hr-21 | owner=Security | last_seen=3/14/2025 | days_since_last_seen=315 | risk=LOW
-- web-35 | owner=Executive Administration | last_seen=8/23/2025 | days_since_last_seen=153 | risk=LOW
-- eng-48 | owner=Executive Administration | last_seen=7/20/2025 | days_since_last_seen=187 | risk=HIGH
-- eng-25 | owner=Engineering | last_seen=3/11/2025 | days_since_last_seen=318 | risk=LOW
-- eng-17 | owner=Finance | last_seen=8/13/2025 | days_since_last_seen=163 | risk=MEDIUM
-- web-16 | owner=Finance | last_seen=3/13/2025 | days_since_last_seen=316 | risk=MEDIUM
-- compute-47 | owner=Executive Administration | last_seen=9/17/2025 | days_since_last_seen=128 | risk=LOW
-- hr-4 | owner=IT | last_seen=10/14/2025 | days_since_last_seen=101 | risk=MEDIUM
-- compute-32 | owner=Engineering | last_seen=7/4/2025 | days_since_last_seen=203 | risk=HIGH
-- eng-7 | owner=Engineering | last_seen=12/15/2025 | days_since_last_seen=39 | risk=LOW
-- finance-47 | owner=IT | last_seen=1/27/2025 | days_since_last_seen=361 | risk=MEDIUM
-- hr-1 | owner=Finance | last_seen=3/13/2025 | days_since_last_seen=316 | risk=LOW
-- web-28 | owner=Executive Administration | last_seen=5/22/2025 | days_since_last_seen=246 | risk=MEDIUM
-- finance-14 | owner=IT | last_seen=5/27/2025 | days_since_last_seen=241 | risk=LOW
-- finance-25 | owner=IT | last_seen=5/23/2025 | days_since_last_seen=245 | risk=LOW
-- compute-36 | owner=Executive Administration | last_seen=3/19/2025 | days_since_last_seen=310 | risk=MEDIUM
-- hr-11 | owner=HR | last_seen=4/21/2025 | days_since_last_seen=277 | risk=LOW
-- hr-46 | owner=Engineering | last_seen=7/20/2025 | days_since_last_seen=187 | risk=LOW
-- web-26 | owner=Engineering | last_seen=8/25/2025 | days_since_last_seen=151 | risk=HIGH
-- hr-26 | owner=Finance | last_seen=9/26/2025 | days_since_last_seen=119 | risk=MEDIUM
-- db-13 | owner=Security | last_seen=11/15/2025 | days_since_last_seen=69 | risk=HIGH
-- hr-18 | owner=HR | last_seen=11/14/2025 | days_since_last_seen=70 | risk=LOW
-- web-35 | owner=IT | last_seen=3/8/2025 | days_since_last_seen=321 | risk=MEDIUM
-- eng-35 | owner=IT | last_seen=8/31/2025 | days_since_last_seen=145 | risk=MEDIUM
-- web-2 | owner=Security | last_seen=3/31/2025 | days_since_last_seen=298 | risk=LOW
-- hr-12 | owner=HR | last_seen=4/17/2025 | days_since_last_seen=281 | risk=MEDIUM
-- finance-48 | owner=IT | last_seen=9/1/2025 | days_since_last_seen=144 | risk=MEDIUM
-- eng-15 | owner=IT | last_seen=4/23/2025 | days_since_last_seen=275 | risk=LOW
-- db-2 | owner=IT | last_seen=2/2/2025 | days_since_last_seen=355 | risk=MEDIUM
-- eng-34 | owner=IT | last_seen=4/4/2025 | days_since_last_seen=294 | risk=MEDIUM
-- db-34 | owner=IT | last_seen=3/5/2025 | days_since_last_seen=324 | risk=LOW
-- hr-30 | owner=Finance | last_seen=2/26/2025 | days_since_last_seen=331 | risk=MEDIUM
-- hr-34 | owner=Finance | last_seen=6/29/2025 | days_since_last_seen=208 | risk=MEDIUM
-- finance-3 | owner=IT | last_seen=5/9/2025 | days_since_last_seen=259 | risk=LOW
-- compute-24 | owner=Security | last_seen=6/30/2025 | days_since_last_seen=207 | risk=LOW
-- eng-28 | owner=IT | last_seen=1/25/2025 | days_since_last_seen=363 | risk=LOW
-- web-16 | owner=Finance | last_seen=1/26/2025 | days_since_last_seen=362 | risk=LOW
-- web-28 | owner=Executive Administration | last_seen=2/15/2025 | days_since_last_seen=342 | risk=MEDIUM
-- db-23 | owner=Executive Administration | last_seen=7/26/2025 | days_since_last_seen=181 | risk=LOW
-- hr-34 | owner=Engineering | last_seen=8/13/2025 | days_since_last_seen=163 | risk=MEDIUM
-- finance-29 | owner=Finance | last_seen=7/29/2025 | days_since_last_seen=178 | risk=MEDIUM
-- hr-19 | owner=Security | last_seen=10/14/2025 | days_since_last_seen=101 | risk=MEDIUM
-- eng-7 | owner=Finance | last_seen=3/8/2025 | days_since_last_seen=321 | risk=LOW
-- eng-30 | owner=Finance | last_seen=1/12/2025 | days_since_last_seen=376 | risk=MEDIUM
-- compute-43 | owner=Finance | last_seen=5/18/2025 | days_since_last_seen=250 | risk=LOW
-- hr-44 | owner=Engineering | last_seen=3/1/2025 | days_since_last_seen=328 | risk=MEDIUM
-- web-1 | owner=Executive Administration | last_seen=10/7/2025 | days_since_last_seen=108 | risk=LOW
-- finance-37 | owner=Executive Administration | last_seen=12/12/2025 | days_since_last_seen=42 | risk=LOW
-- db-41 | owner=Finance | last_seen=5/10/2025 | days_since_last_seen=258 | risk=LOW
-- eng-48 | owner=Security | last_seen=8/10/2025 | days_since_last_seen=166 | risk=LOW
-- db-46 | owner=Security | last_seen=4/29/2025 | days_since_last_seen=269 | risk=MEDIUM
-- hr-14 | owner=Security | last_seen=5/15/2025 | days_since_last_seen=253 | risk=LOW
-- eng-50 | owner=Executive Administration | last_seen=12/1/2025 | days_since_last_seen=53 | risk=MEDIUM
-- finance-1 | owner=Engineering | last_seen=11/21/2025 | days_since_last_seen=63 | risk=LOW
-- web-25 | owner=Executive Administration | last_seen=3/1/2025 | days_since_last_seen=328 | risk=MEDIUM
-- web-23 | owner=Executive Administration | last_seen=10/20/2025 | days_since_last_seen=95 | risk=LOW
-- db-50 | owner=Finance | last_seen=3/8/2025 | days_since_last_seen=321 | risk=MEDIUM
-- db-41 | owner=Executive Administration | last_seen=9/26/2025 | days_since_last_seen=119 | risk=HIGH
-- web-50 | owner=Engineering | last_seen=4/27/2025 | days_since_last_seen=271 | risk=MEDIUM
-- web-20 | owner=Executive Administration | last_seen=9/4/2025 | days_since_last_seen=141 | risk=LOW
-- db-6 | owner=HR | last_seen=7/27/2025 | days_since_last_seen=180 | risk=LOW
-- compute-4 | owner=Executive Administration | last_seen=6/17/2025 | days_since_last_seen=220 | risk=MEDIUM
-- hr-49 | owner=HR | last_seen=2/17/2025 | days_since_last_seen=340 | risk=HIGH
-- hr-39 | owner=Executive Administration | last_seen=12/24/2025 | days_since_last_seen=30 | risk=LOW
-- compute-15 | owner=Executive Administration | last_seen=10/3/2025 | days_since_last_seen=112 | risk=LOW
-- compute-50 | owner=Security | last_seen=3/10/2025 | days_since_last_seen=319 | risk=LOW
-- hr-26 | owner=Security | last_seen=11/4/2025 | days_since_last_seen=80 | risk=HIGH
-- hr-4 | owner=Engineering | last_seen=1/12/2025 | days_since_last_seen=376 | risk=MEDIUM
-- web-49 | owner=Finance | last_seen=8/23/2025 | days_since_last_seen=153 | risk=MEDIUM
-- eng-46 | owner=Finance | last_seen=8/23/2025 | days_since_last_seen=153 | risk=LOW
-- finance-14 | owner=IT | last_seen=11/20/2025 | days_since_last_seen=64 | risk=HIGH
-- finance-46 | owner=Executive Administration | last_seen=6/23/2025 | days_since_last_seen=214 | risk=HIGH
-- eng-13 | owner=Engineering | last_seen=9/14/2025 | days_since_last_seen=131 | risk=MEDIUM
-- hr-16 | owner=Executive Administration | last_seen=4/13/2025 | days_since_last_seen=285 | risk=HIGH
-- finance-33 | owner=Security | last_seen=12/20/2025 | days_since_last_seen=34 | risk=HIGH
-- db-38 | owner=Security | last_seen=1/10/2025 | days_since_last_seen=378 | risk=MEDIUM
-- web-5 | owner=HR | last_seen=10/22/2025 | days_since_last_seen=93 | risk=HIGH
-- compute-3 | owner=Executive Administration | last_seen=10/2/2025 | days_since_last_seen=113 | risk=MEDIUM
-- hr-39 | owner=Executive Administration | last_seen=11/7/2025 | days_since_last_seen=77 | risk=HIGH
-- finance-41 | owner=IT | last_seen=5/3/2025 | days_since_last_seen=265 | risk=MEDIUM
-- compute-2 | owner=IT | last_seen=4/3/2025 | days_since_last_seen=295 | risk=MEDIUM
-- web-12 | owner=Executive Administration | last_seen=9/20/2025 | days_since_last_seen=125 | risk=LOW
-- eng-30 | owner=HR | last_seen=4/28/2025 | days_since_last_seen=270 | risk=MEDIUM
-- eng-36 | owner=IT | last_seen=2/2/2025 | days_since_last_seen=355 | risk=MEDIUM
-- web-9 | owner=Finance | last_seen=3/25/2025 | days_since_last_seen=304 | risk=HIGH
-- eng-1 | owner=Executive Administration | last_seen=11/6/2025 | days_since_last_seen=78 | risk=LOW
-- db-16 | owner=Engineering | last_seen=11/29/2025 | days_since_last_seen=55 | risk=LOW
-- finance-20 | owner=Engineering | last_seen=1/8/2025 | days_since_last_seen=380 | risk=HIGH
-- finance-4 | owner=HR | last_seen=2/4/2025 | days_since_last_seen=353 | risk=LOW
-- compute-47 | owner=IT | last_seen=10/22/2025 | days_since_last_seen=93 | risk=LOW
-- eng-30 | owner=Security | last_seen=9/16/2025 | days_since_last_seen=129 | risk=LOW
-- hr-24 | owner=HR | last_seen=4/19/2025 | days_since_last_seen=279 | risk=LOW
-- eng-6 | owner=Engineering | last_seen=5/16/2025 | days_since_last_seen=252 | risk=LOW
-- hr-42 | owner=HR | last_seen=5/16/2025 | days_since_last_seen=252 | risk=MEDIUM
-- hr-17 | owner=Executive Administration | last_seen=12/13/2025 | days_since_last_seen=41 | risk=LOW
-- eng-31 | owner=Engineering | last_seen=6/10/2025 | days_since_last_seen=227 | risk=HIGH
-- compute-31 | owner=Executive Administration | last_seen=12/5/2025 | days_since_last_seen=49 | risk=LOW
-- compute-26 | owner=Security | last_seen=9/12/2025 | days_since_last_seen=133 | risk=MEDIUM
-- compute-10 | owner=HR | last_seen=2/25/2025 | days_since_last_seen=332 | risk=MEDIUM
-- hr-11 | owner=HR | last_seen=8/10/2025 | days_since_last_seen=166 | risk=LOW
-- db-12 | owner=IT | last_seen=7/15/2025 | days_since_last_seen=192 | risk=LOW
-- db-24 | owner=Engineering | last_seen=10/7/2025 | days_since_last_seen=108 | risk=LOW
-- web-50 | owner=IT | last_seen=4/22/2025 | days_since_last_seen=276 | risk=HIGH
-- db-37 | owner=Security | last_seen=1/16/2025 | days_since_last_seen=372 | risk=MEDIUM
-- db-4 | owner=Engineering | last_seen=12/19/2025 | days_since_last_seen=35 | risk=MEDIUM
-- finance-40 | owner=Finance | last_seen=11/11/2025 | days_since_last_seen=73 | risk=MEDIUM
-- db-4 | owner=Finance | last_seen=1/20/2025 | days_since_last_seen=368 | risk=HIGH
-- db-10 | owner=Executive Administration | last_seen=11/25/2025 | days_since_last_seen=59 | risk=MEDIUM
-- compute-48 | owner=HR | last_seen=3/7/2025 | days_since_last_seen=322 | risk=LOW
-- db-7 | owner=Executive Administration | last_seen=12/18/2025 | days_since_last_seen=36 | risk=HIGH
-- hr-25 | owner=Security | last_seen=12/6/2025 | days_since_last_seen=48 | risk=LOW
-- eng-28 | owner=IT | last_seen=6/1/2025 | days_since_last_seen=236 | risk=LOW
-- finance-16 | owner=Finance | last_seen=9/16/2025 | days_since_last_seen=129 | risk=MEDIUM
-- hr-37 | owner=Finance | last_seen=10/10/2025 | days_since_last_seen=105 | risk=HIGH
-- finance-30 | owner=Security | last_seen=2/24/2025 | days_since_last_seen=333 | risk=LOW
-- db-11 | owner=Executive Administration | last_seen=6/15/2025 | days_since_last_seen=222 | risk=MEDIUM
-- hr-40 | owner=Finance | last_seen=6/9/2025 | days_since_last_seen=228 | risk=MEDIUM
-- finance-5 | owner=Engineering | last_seen=6/8/2025 | days_since_last_seen=229 | risk=LOW
-- compute-22 | owner=Engineering | last_seen=9/22/2025 | days_since_last_seen=123 | risk=MEDIUM
-- finance-49 | owner=Executive Administration | last_seen=6/14/2025 | days_since_last_seen=223 | risk=LOW
-- finance-30 | owner=IT | last_seen=11/23/2025 | days_since_last_seen=61 | risk=MEDIUM
-- db-34 | owner=Executive Administration | last_seen=4/1/2025 | days_since_last_seen=297 | risk=LOW
-- hr-33 | owner=IT | last_seen=5/11/2025 | days_since_last_seen=257 | risk=MEDIUM
-- web-28 | owner=Executive Administration | last_seen=8/31/2025 | days_since_last_seen=145 | risk=LOW
-- eng-31 | owner=Finance | last_seen=3/12/2025 | days_since_last_seen=317 | risk=LOW
-- hr-44 | owner=HR | last_seen=5/21/2025 | days_since_last_seen=247 | risk=MEDIUM
-- web-22 | owner=Finance | last_seen=1/12/2025 | days_since_last_seen=376 | risk=LOW
-- db-30 | owner=Finance | last_seen=11/12/2025 | days_since_last_seen=72 | risk=MEDIUM
-- compute-28 | owner=Finance | last_seen=1/12/2025 | days_since_last_seen=376 | risk=MEDIUM
-- finance-28 | owner=Engineering | last_seen=11/23/2025 | days_since_last_seen=61 | risk=HIGH
-- compute-44 | owner=Finance | last_seen=10/23/2025 | days_since_last_seen=92 | risk=HIGH
-- hr-10 | owner=Security | last_seen=11/5/2025 | days_since_last_seen=79 | risk=MEDIUM
-- eng-5 | owner=Finance | last_seen=7/5/2025 | days_since_last_seen=202 | risk=LOW
-- finance-21 | owner=HR | last_seen=9/27/2025 | days_since_last_seen=118 | risk=LOW
-- finance-1 | owner=Engineering | last_seen=6/5/2025 | days_since_last_seen=232 | risk=HIGH
-- web-9 | owner=Executive Administration | last_seen=3/27/2025 | days_since_last_seen=302 | risk=MEDIUM
-- web-20 | owner=HR | last_seen=3/26/2025 | days_since_last_seen=303 | risk=LOW
-- finance-29 | owner=Engineering | last_seen=7/26/2025 | days_since_last_seen=181 | risk=MEDIUM
-- compute-3 | owner=Finance | last_seen=3/17/2025 | days_since_last_seen=312 | risk=HIGH
-- finance-18 | owner=Security | last_seen=5/6/2025 | days_since_last_seen=262 | risk=MEDIUM
-- db-23 | owner=Executive Administration | last_seen=4/17/2025 | days_since_last_seen=281 | risk=HIGH
-- web-23 | owner=Security | last_seen=9/6/2025 | days_since_last_seen=139 | risk=LOW
-- compute-45 | owner=Finance | last_seen=7/12/2025 | days_since_last_seen=195 | risk=MEDIUM
-- finance-20 | owner=Finance | last_seen=5/23/2025 | days_since_last_seen=245 | risk=HIGH
-- compute-18 | owner=Engineering | last_seen=5/15/2025 | days_since_last_seen=253 | risk=LOW
-- web-4 | owner=HR | last_seen=8/8/2025 | days_since_last_seen=168 | risk=LOW
-- compute-4 | owner=Finance | last_seen=5/17/2025 | days_since_last_seen=251 | risk=MEDIUM
-- compute-5 | owner=Finance | last_seen=12/7/2025 | days_since_last_seen=47 | risk=MEDIUM
-- hr-22 | owner=Executive Administration | last_seen=11/7/2025 | days_since_last_seen=77 | risk=LOW
-- db-10 | owner=HR | last_seen=4/29/2025 | days_since_last_seen=269 | risk=MEDIUM
-- db-39 | owner=IT | last_seen=11/4/2025 | days_since_last_seen=80 | risk=LOW
-- eng-11 | owner=IT | last_seen=2/11/2025 | days_since_last_seen=346 | risk=HIGH
-- compute-36 | owner=Engineering | last_seen=1/18/2025 | days_since_last_seen=370 | risk=LOW
-- db-43 | owner=HR | last_seen=8/14/2025 | days_since_last_seen=162 | risk=MEDIUM
-- eng-6 | owner=Engineering | last_seen=8/2/2025 | days_since_last_seen=174 | risk=MEDIUM
-- finance-14 | owner=HR | last_seen=5/22/2025 | days_since_last_seen=246 | risk=LOW
-- finance-6 | owner=IT | last_seen=6/18/2025 | days_since_last_seen=219 | risk=MEDIUM
-- eng-22 | owner=Engineering | last_seen=3/19/2025 | days_since_last_seen=310 | risk=MEDIUM
-- eng-8 | owner=Engineering | last_seen=9/24/2025 | days_since_last_seen=121 | risk=MEDIUM
-- compute-14 | owner=Engineering | last_seen=4/8/2025 | days_since_last_seen=290 | risk=HIGH
-- hr-33 | owner=Engineering | last_seen=2/2/2025 | days_since_last_seen=355 | risk=MEDIUM
-- db-15 | owner=Finance | last_seen=10/31/2025 | days_since_last_seen=84 | risk=MEDIUM
-- web-31 | owner=Engineering | last_seen=5/20/2025 | days_since_last_seen=248 | risk=MEDIUM
-- db-35 | owner=HR | last_seen=9/9/2025 | days_since_last_seen=136 | risk=HIGH
-- finance-10 | owner=HR | last_seen=2/7/2025 | days_since_last_seen=350 | risk=MEDIUM
-- finance-20 | owner=Engineering | last_seen=9/8/2025 | days_since_last_seen=137 | risk=LOW
-- compute-49 | owner=Executive Administration | last_seen=5/21/2025 | days_since_last_seen=247 | risk=MEDIUM
-- finance-45 | owner=HR | last_seen=4/7/2025 | days_since_last_seen=291 | risk=LOW
-- eng-8 | owner=Security | last_seen=7/28/2025 | days_since_last_seen=179 | risk=LOW
-- eng-49 | owner=Finance | last_seen=3/19/2025 | days_since_last_seen=310 | risk=MEDIUM
-- db-47 | owner=Security | last_seen=9/10/2025 | days_since_last_seen=135 | risk=MEDIUM
-- finance-48 | owner=Engineering | last_seen=2/12/2025 | days_since_last_seen=345 | risk=LOW
-- web-42 | owner=HR | last_seen=4/3/2025 | days_since_last_seen=295 | risk=LOW
-- eng-19 | owner=Executive Administration | last_seen=12/3/2025 | days_since_last_seen=51 | risk=MEDIUM
-- hr-27 | owner=IT | last_seen=5/1/2025 | days_since_last_seen=267 | risk=HIGH
-- db-29 | owner=Security | last_seen=3/23/2025 | days_since_last_seen=306 | risk=LOW
-- hr-28 | owner=Finance | last_seen=2/18/2025 | days_since_last_seen=339 | risk=LOW
-- compute-24 | owner=Executive Administration | last_seen=5/5/2025 | days_since_last_seen=263 | risk=MEDIUM
-- db-29 | owner=HR | last_seen=10/6/2025 | days_since_last_seen=109 | risk=HIGH
-- web-33 | owner=IT | last_seen=4/11/2025 | days_since_last_seen=287 | risk=MEDIUM
-- finance-37 | owner=Engineering | last_seen=1/6/2025 | days_since_last_seen=382 | risk=MEDIUM
-- db-4 | owner=Security | last_seen=12/15/2025 | days_since_last_seen=39 | risk=MEDIUM
-- eng-42 | owner=Security | last_seen=5/16/2025 | days_since_last_seen=252 | risk=HIGH
-- compute-29 | owner=IT | last_seen=2/27/2025 | days_since_last_seen=330 | risk=LOW
-- web-32 | owner=Finance | last_seen=10/17/2025 | days_since_last_seen=98 | risk=MEDIUM
-- web-46 | owner=IT | last_seen=5/28/2025 | days_since_last_seen=240 | risk=HIGH
-- hr-26 | owner=Finance | last_seen=8/26/2025 | days_since_last_seen=150 | risk=MEDIUM
-- web-16 | owner=IT | last_seen=4/2/2025 | days_since_last_seen=296 | risk=MEDIUM
-- hr-27 | owner=Finance | last_seen=2/26/2025 | days_since_last_seen=331 | risk=LOW
-- compute-21 | owner=HR | last_seen=4/19/2025 | days_since_last_seen=279 | risk=MEDIUM
-- eng-21 | owner=Security | last_seen=2/7/2025 | days_since_last_seen=350 | risk=MEDIUM
-- web-48 | owner=IT | last_seen=5/11/2025 | days_since_last_seen=257 | risk=LOW
-- hr-49 | owner=HR | last_seen=9/6/2025 | days_since_last_seen=139 | risk=LOW
-- eng-29 | owner=Finance | last_seen=3/13/2025 | days_since_last_seen=316 | risk=MEDIUM
-- db-6 | owner=Executive Administration | last_seen=5/28/2025 | days_since_last_seen=240 | risk=MEDIUM
-- finance-13 | owner=Finance | last_seen=11/24/2025 | days_since_last_seen=60 | risk=MEDIUM
-- db-30 | owner=Security | last_seen=7/24/2025 | days_since_last_seen=183 | risk=LOW
-- finance-39 | owner=Executive Administration | last_seen=8/17/2025 | days_since_last_seen=159 | risk=HIGH
-- hr-38 | owner=Finance | last_seen=12/18/2025 | days_since_last_seen=36 | risk=HIGH
-- web-42 | owner=Security | last_seen=10/25/2025 | days_since_last_seen=90 | risk=MEDIUM
-- compute-24 | owner=IT | last_seen=10/30/2025 | days_since_last_seen=85 | risk=LOW
-- web-12 | owner=IT | last_seen=12/18/2025 | days_since_last_seen=36 | risk=MEDIUM
-- db-42 | owner=Executive Administration | last_seen=10/4/2025 | days_since_last_seen=111 | risk=LOW
-- eng-24 | owner=HR | last_seen=3/7/2025 | days_since_last_seen=322 | risk=MEDIUM
-- hr-23 | owner=Engineering | last_seen=11/10/2025 | days_since_last_seen=74 | risk=MEDIUM
-- web-7 | owner=Executive Administration | last_seen=6/13/2025 | days_since_last_seen=224 | risk=MEDIUM
-- db-19 | owner=Engineering | last_seen=8/3/2025 | days_since_last_seen=173 | risk=LOW
-- hr-5 | owner=Security | last_seen=11/20/2025 | days_since_last_seen=64 | risk=LOW
-- db-46 | owner=Executive Administration | last_seen=12/5/2025 | days_since_last_seen=49 | risk=LOW
-- finance-15 | owner=Security | last_seen=7/31/2025 | days_since_last_seen=176 | risk=HIGH
-- web-48 | owner=HR | last_seen=9/2/2025 | days_since_last_seen=143 | risk=MEDIUM
-- hr-48 | owner=Engineering | last_seen=12/12/2025 | days_since_last_seen=42 | risk=LOW
-- compute-16 | owner=IT | last_seen=5/6/2025 | days_since_last_seen=262 | risk=LOW
-- compute-15 | owner=Security | last_seen=8/11/2025 | days_since_last_seen=165 | risk=MEDIUM
-- hr-4 | owner=Finance | last_seen=6/29/2025 | days_since_last_seen=208 | risk=LOW
-- db-23 | owner=IT | last_seen=8/7/2025 | days_since_last_seen=169 | risk=MEDIUM
-- compute-7 | owner=Engineering | last_seen=12/4/2025 | days_since_last_seen=50 | risk=HIGH
-- finance-15 | owner=Executive Administration | last_seen=12/21/2025 | days_since_last_seen=33 | risk=MEDIUM
-- finance-40 | owner=Executive Administration | last_seen=7/19/2025 | days_since_last_seen=188 | risk=LOW
-- eng-6 | owner=Finance | last_seen=11/22/2025 | days_since_last_seen=62 | risk=MEDIUM
-- finance-4 | owner=HR | last_seen=11/22/2025 | days_since_last_seen=62 | risk=HIGH
+- db-3 | owner=HR | last_seen=1/19/2025 | days_since_last_seen=371 | risk=MEDIUM
+- hr-45 | owner=Security | last_seen=9/22/2025 | days_since_last_seen=125 | risk=LOW
+- hr-16 | owner=HR | last_seen=10/12/2025 | days_since_last_seen=105 | risk=LOW
+- compute-33 | owner=Engineering | last_seen=5/24/2025 | days_since_last_seen=246 | risk=HIGH
+- web-15 | owner=Engineering | last_seen=3/11/2025 | days_since_last_seen=320 | risk=MEDIUM
+- web-15 | owner=HR | last_seen=9/21/2025 | days_since_last_seen=126 | risk=HIGH
+- compute-9 | owner=Engineering | last_seen=11/29/2025 | days_since_last_seen=57 | risk=MEDIUM
+- compute-31 | owner=HR | last_seen=6/15/2025 | days_since_last_seen=224 | risk=LOW
+- eng-24 | owner=Executive Administration | last_seen=10/6/2025 | days_since_last_seen=111 | risk=MEDIUM
+- eng-34 | owner=HR | last_seen=4/23/2025 | days_since_last_seen=277 | risk=MEDIUM
+- eng-8 | owner=Finance | last_seen=7/16/2025 | days_since_last_seen=193 | risk=MEDIUM
+- web-16 | owner=IT | last_seen=10/31/2025 | days_since_last_seen=86 | risk=MEDIUM
+- web-10 | owner=Finance | last_seen=4/11/2025 | days_since_last_seen=289 | risk=MEDIUM
+- web-10 | owner=Executive Administration | last_seen=7/31/2025 | days_since_last_seen=178 | risk=HIGH
+- finance-24 | owner=HR | last_seen=11/13/2025 | days_since_last_seen=73 | risk=HIGH
+- web-15 | owner=Engineering | last_seen=1/9/2025 | days_since_last_seen=381 | risk=HIGH
+- web-26 | owner=Finance | last_seen=11/9/2025 | days_since_last_seen=77 | risk=MEDIUM
+- web-33 | owner=IT | last_seen=1/17/2025 | days_since_last_seen=373 | risk=LOW
+- finance-24 | owner=Finance | last_seen=4/3/2025 | days_since_last_seen=297 | risk=LOW
+- finance-35 | owner=IT | last_seen=2/9/2025 | days_since_last_seen=350 | risk=HIGH
+- db-41 | owner=Finance | last_seen=12/24/2025 | days_since_last_seen=32 | risk=MEDIUM
+- compute-2 | owner=Executive Administration | last_seen=2/25/2025 | days_since_last_seen=334 | risk=LOW
+- web-31 | owner=Finance | last_seen=8/21/2025 | days_since_last_seen=157 | risk=LOW
+- web-12 | owner=IT | last_seen=8/4/2025 | days_since_last_seen=174 | risk=LOW
+- finance-14 | owner=Executive Administration | last_seen=4/16/2025 | days_since_last_seen=284 | risk=MEDIUM
+- eng-28 | owner=Security | last_seen=5/8/2025 | days_since_last_seen=262 | risk=MEDIUM
+- db-31 | owner=Engineering | last_seen=10/26/2025 | days_since_last_seen=91 | risk=HIGH
+- web-38 | owner=Engineering | last_seen=5/5/2025 | days_since_last_seen=265 | risk=MEDIUM
+- web-19 | owner=IT | last_seen=7/19/2025 | days_since_last_seen=190 | risk=LOW
+- compute-30 | owner=HR | last_seen=5/26/2025 | days_since_last_seen=244 | risk=LOW
+- db-16 | owner=Finance | last_seen=9/10/2025 | days_since_last_seen=137 | risk=LOW
+- hr-46 | owner=Executive Administration | last_seen=12/23/2025 | days_since_last_seen=33 | risk=LOW
+- web-48 | owner=IT | last_seen=3/24/2025 | days_since_last_seen=307 | risk=MEDIUM
+- compute-50 | owner=Finance | last_seen=5/29/2025 | days_since_last_seen=241 | risk=MEDIUM
+- finance-40 | owner=Security | last_seen=6/12/2025 | days_since_last_seen=227 | risk=MEDIUM
+- db-17 | owner=Engineering | last_seen=8/26/2025 | days_since_last_seen=152 | risk=MEDIUM
+- eng-10 | owner=HR | last_seen=3/13/2025 | days_since_last_seen=318 | risk=LOW
+- web-36 | owner=IT | last_seen=11/29/2025 | days_since_last_seen=57 | risk=MEDIUM
+- compute-13 | owner=IT | last_seen=12/4/2025 | days_since_last_seen=52 | risk=MEDIUM
+- finance-4 | owner=Finance | last_seen=10/9/2025 | days_since_last_seen=108 | risk=LOW
+- finance-29 | owner=Security | last_seen=3/31/2025 | days_since_last_seen=300 | risk=MEDIUM
+- compute-43 | owner=Security | last_seen=1/11/2025 | days_since_last_seen=379 | risk=MEDIUM
+- finance-22 | owner=HR | last_seen=4/8/2025 | days_since_last_seen=292 | risk=MEDIUM
+- compute-28 | owner=IT | last_seen=2/28/2025 | days_since_last_seen=331 | risk=MEDIUM
+- web-39 | owner=Security | last_seen=9/18/2025 | days_since_last_seen=129 | risk=MEDIUM
+- finance-42 | owner=IT | last_seen=8/26/2025 | days_since_last_seen=152 | risk=LOW
+- finance-37 | owner=HR | last_seen=9/28/2025 | days_since_last_seen=119 | risk=MEDIUM
+- finance-41 | owner=Executive Administration | last_seen=10/18/2025 | days_since_last_seen=99 | risk=HIGH
+- compute-12 | owner=Executive Administration | last_seen=11/22/2025 | days_since_last_seen=64 | risk=HIGH
+- eng-15 | owner=Engineering | last_seen=8/27/2025 | days_since_last_seen=151 | risk=MEDIUM
+- compute-46 | owner=IT | last_seen=8/2/2025 | days_since_last_seen=176 | risk=MEDIUM
+- eng-21 | owner=Executive Administration | last_seen=9/8/2025 | days_since_last_seen=139 | risk=MEDIUM
+- finance-39 | owner=Engineering | last_seen=9/1/2025 | days_since_last_seen=146 | risk=LOW
+- hr-11 | owner=IT | last_seen=6/1/2025 | days_since_last_seen=238 | risk=LOW
+- finance-30 | owner=Finance | last_seen=11/27/2025 | days_since_last_seen=59 | risk=MEDIUM
+- eng-29 | owner=Executive Administration | last_seen=6/24/2025 | days_since_last_seen=215 | risk=LOW
+- compute-14 | owner=HR | last_seen=11/6/2025 | days_since_last_seen=80 | risk=MEDIUM
+- compute-15 | owner=IT | last_seen=1/4/2025 | days_since_last_seen=386 | risk=LOW
+- finance-38 | owner=Executive Administration | last_seen=7/2/2025 | days_since_last_seen=207 | risk=LOW
+- eng-32 | owner=Security | last_seen=7/8/2025 | days_since_last_seen=201 | risk=HIGH
+- hr-39 | owner=Security | last_seen=9/24/2025 | days_since_last_seen=123 | risk=LOW
+- compute-34 | owner=Engineering | last_seen=7/26/2025 | days_since_last_seen=183 | risk=MEDIUM
+- hr-33 | owner=Finance | last_seen=7/9/2025 | days_since_last_seen=200 | risk=HIGH
+- web-47 | owner=IT | last_seen=3/20/2025 | days_since_last_seen=311 | risk=MEDIUM
+- finance-18 | owner=Executive Administration | last_seen=7/3/2025 | days_since_last_seen=206 | risk=MEDIUM
+- hr-25 | owner=Security | last_seen=12/8/2025 | days_since_last_seen=48 | risk=MEDIUM
+- eng-14 | owner=Executive Administration | last_seen=12/6/2025 | days_since_last_seen=50 | risk=MEDIUM
+- finance-46 | owner=Security | last_seen=7/15/2025 | days_since_last_seen=194 | risk=LOW
+- web-47 | owner=IT | last_seen=9/4/2025 | days_since_last_seen=143 | risk=MEDIUM
+- db-12 | owner=Security | last_seen=8/15/2025 | days_since_last_seen=163 | risk=HIGH
+- web-36 | owner=Finance | last_seen=1/16/2025 | days_since_last_seen=374 | risk=HIGH
+- hr-21 | owner=Security | last_seen=3/14/2025 | days_since_last_seen=317 | risk=LOW
+- web-35 | owner=Executive Administration | last_seen=8/23/2025 | days_since_last_seen=155 | risk=LOW
+- eng-48 | owner=Executive Administration | last_seen=7/20/2025 | days_since_last_seen=189 | risk=HIGH
+- eng-25 | owner=Engineering | last_seen=3/11/2025 | days_since_last_seen=320 | risk=LOW
+- eng-17 | owner=Finance | last_seen=8/13/2025 | days_since_last_seen=165 | risk=MEDIUM
+- web-16 | owner=Finance | last_seen=3/13/2025 | days_since_last_seen=318 | risk=MEDIUM
+- compute-47 | owner=Executive Administration | last_seen=9/17/2025 | days_since_last_seen=130 | risk=LOW
+- hr-4 | owner=IT | last_seen=10/14/2025 | days_since_last_seen=103 | risk=MEDIUM
+- compute-32 | owner=Engineering | last_seen=7/4/2025 | days_since_last_seen=205 | risk=HIGH
+- eng-7 | owner=Engineering | last_seen=12/15/2025 | days_since_last_seen=41 | risk=LOW
+- finance-47 | owner=IT | last_seen=1/27/2025 | days_since_last_seen=363 | risk=MEDIUM
+- hr-1 | owner=Finance | last_seen=3/13/2025 | days_since_last_seen=318 | risk=LOW
+- web-28 | owner=Executive Administration | last_seen=5/22/2025 | days_since_last_seen=248 | risk=MEDIUM
+- finance-14 | owner=IT | last_seen=5/27/2025 | days_since_last_seen=243 | risk=LOW
+- finance-25 | owner=IT | last_seen=5/23/2025 | days_since_last_seen=247 | risk=LOW
+- compute-36 | owner=Executive Administration | last_seen=3/19/2025 | days_since_last_seen=312 | risk=MEDIUM
+- hr-11 | owner=HR | last_seen=4/21/2025 | days_since_last_seen=279 | risk=LOW
+- hr-46 | owner=Engineering | last_seen=7/20/2025 | days_since_last_seen=189 | risk=LOW
+- web-26 | owner=Engineering | last_seen=8/25/2025 | days_since_last_seen=153 | risk=HIGH
+- hr-26 | owner=Finance | last_seen=9/26/2025 | days_since_last_seen=121 | risk=MEDIUM
+- db-13 | owner=Security | last_seen=11/15/2025 | days_since_last_seen=71 | risk=HIGH
+- hr-18 | owner=HR | last_seen=11/14/2025 | days_since_last_seen=72 | risk=LOW
+- web-35 | owner=IT | last_seen=3/8/2025 | days_since_last_seen=323 | risk=MEDIUM
+- eng-35 | owner=IT | last_seen=8/31/2025 | days_since_last_seen=147 | risk=MEDIUM
+- web-2 | owner=Security | last_seen=3/31/2025 | days_since_last_seen=300 | risk=LOW
+- hr-12 | owner=HR | last_seen=4/17/2025 | days_since_last_seen=283 | risk=MEDIUM
+- finance-48 | owner=IT | last_seen=9/1/2025 | days_since_last_seen=146 | risk=MEDIUM
+- eng-15 | owner=IT | last_seen=4/23/2025 | days_since_last_seen=277 | risk=LOW
+- db-2 | owner=IT | last_seen=2/2/2025 | days_since_last_seen=357 | risk=MEDIUM
+- eng-34 | owner=IT | last_seen=4/4/2025 | days_since_last_seen=296 | risk=MEDIUM
+- db-34 | owner=IT | last_seen=3/5/2025 | days_since_last_seen=326 | risk=LOW
+- hr-30 | owner=Finance | last_seen=2/26/2025 | days_since_last_seen=333 | risk=MEDIUM
+- hr-34 | owner=Finance | last_seen=6/29/2025 | days_since_last_seen=210 | risk=MEDIUM
+- finance-3 | owner=IT | last_seen=5/9/2025 | days_since_last_seen=261 | risk=LOW
+- compute-24 | owner=Security | last_seen=6/30/2025 | days_since_last_seen=209 | risk=LOW
+- eng-28 | owner=IT | last_seen=1/25/2025 | days_since_last_seen=365 | risk=LOW
+- web-16 | owner=Finance | last_seen=1/26/2025 | days_since_last_seen=364 | risk=LOW
+- web-28 | owner=Executive Administration | last_seen=2/15/2025 | days_since_last_seen=344 | risk=MEDIUM
+- db-23 | owner=Executive Administration | last_seen=7/26/2025 | days_since_last_seen=183 | risk=LOW
+- hr-34 | owner=Engineering | last_seen=8/13/2025 | days_since_last_seen=165 | risk=MEDIUM
+- finance-29 | owner=Finance | last_seen=7/29/2025 | days_since_last_seen=180 | risk=MEDIUM
+- hr-19 | owner=Security | last_seen=10/14/2025 | days_since_last_seen=103 | risk=MEDIUM
+- eng-7 | owner=Finance | last_seen=3/8/2025 | days_since_last_seen=323 | risk=LOW
+- eng-30 | owner=Finance | last_seen=1/12/2025 | days_since_last_seen=378 | risk=MEDIUM
+- compute-43 | owner=Finance | last_seen=5/18/2025 | days_since_last_seen=252 | risk=LOW
+- hr-44 | owner=Engineering | last_seen=3/1/2025 | days_since_last_seen=330 | risk=MEDIUM
+- web-1 | owner=Executive Administration | last_seen=10/7/2025 | days_since_last_seen=110 | risk=LOW
+- finance-37 | owner=Executive Administration | last_seen=12/12/2025 | days_since_last_seen=44 | risk=LOW
+- db-41 | owner=Finance | last_seen=5/10/2025 | days_since_last_seen=260 | risk=LOW
+- eng-48 | owner=Security | last_seen=8/10/2025 | days_since_last_seen=168 | risk=LOW
+- db-46 | owner=Security | last_seen=4/29/2025 | days_since_last_seen=271 | risk=MEDIUM
+- hr-14 | owner=Security | last_seen=5/15/2025 | days_since_last_seen=255 | risk=LOW
+- eng-50 | owner=Executive Administration | last_seen=12/1/2025 | days_since_last_seen=55 | risk=MEDIUM
+- finance-1 | owner=Engineering | last_seen=11/21/2025 | days_since_last_seen=65 | risk=LOW
+- web-25 | owner=Executive Administration | last_seen=3/1/2025 | days_since_last_seen=330 | risk=MEDIUM
+- web-23 | owner=Executive Administration | last_seen=10/20/2025 | days_since_last_seen=97 | risk=LOW
+- db-50 | owner=Finance | last_seen=3/8/2025 | days_since_last_seen=323 | risk=MEDIUM
+- db-41 | owner=Executive Administration | last_seen=9/26/2025 | days_since_last_seen=121 | risk=HIGH
+- web-50 | owner=Engineering | last_seen=4/27/2025 | days_since_last_seen=273 | risk=MEDIUM
+- web-20 | owner=Executive Administration | last_seen=9/4/2025 | days_since_last_seen=143 | risk=LOW
+- db-6 | owner=HR | last_seen=7/27/2025 | days_since_last_seen=182 | risk=LOW
+- compute-4 | owner=Executive Administration | last_seen=6/17/2025 | days_since_last_seen=222 | risk=MEDIUM
+- hr-49 | owner=HR | last_seen=2/17/2025 | days_since_last_seen=342 | risk=HIGH
+- hr-39 | owner=Executive Administration | last_seen=12/24/2025 | days_since_last_seen=32 | risk=LOW
+- compute-15 | owner=Executive Administration | last_seen=10/3/2025 | days_since_last_seen=114 | risk=LOW
+- compute-50 | owner=Security | last_seen=3/10/2025 | days_since_last_seen=321 | risk=LOW
+- hr-26 | owner=Security | last_seen=11/4/2025 | days_since_last_seen=82 | risk=HIGH
+- hr-4 | owner=Engineering | last_seen=1/12/2025 | days_since_last_seen=378 | risk=MEDIUM
+- web-49 | owner=Finance | last_seen=8/23/2025 | days_since_last_seen=155 | risk=MEDIUM
+- eng-46 | owner=Finance | last_seen=8/23/2025 | days_since_last_seen=155 | risk=LOW
+- finance-14 | owner=IT | last_seen=11/20/2025 | days_since_last_seen=66 | risk=HIGH
+- finance-46 | owner=Executive Administration | last_seen=6/23/2025 | days_since_last_seen=216 | risk=HIGH
+- eng-13 | owner=Engineering | last_seen=9/14/2025 | days_since_last_seen=133 | risk=MEDIUM
+- hr-16 | owner=Executive Administration | last_seen=4/13/2025 | days_since_last_seen=287 | risk=HIGH
+- finance-33 | owner=Security | last_seen=12/20/2025 | days_since_last_seen=36 | risk=HIGH
+- db-38 | owner=Security | last_seen=1/10/2025 | days_since_last_seen=380 | risk=MEDIUM
+- web-5 | owner=HR | last_seen=10/22/2025 | days_since_last_seen=95 | risk=HIGH
+- compute-3 | owner=Executive Administration | last_seen=10/2/2025 | days_since_last_seen=115 | risk=MEDIUM
+- hr-39 | owner=Executive Administration | last_seen=11/7/2025 | days_since_last_seen=79 | risk=HIGH
+- finance-41 | owner=IT | last_seen=5/3/2025 | days_since_last_seen=267 | risk=MEDIUM
+- compute-2 | owner=IT | last_seen=4/3/2025 | days_since_last_seen=297 | risk=MEDIUM
+- web-12 | owner=Executive Administration | last_seen=9/20/2025 | days_since_last_seen=127 | risk=LOW
+- eng-30 | owner=HR | last_seen=4/28/2025 | days_since_last_seen=272 | risk=MEDIUM
+- eng-36 | owner=IT | last_seen=2/2/2025 | days_since_last_seen=357 | risk=MEDIUM
+- web-9 | owner=Finance | last_seen=3/25/2025 | days_since_last_seen=306 | risk=HIGH
+- eng-1 | owner=Executive Administration | last_seen=11/6/2025 | days_since_last_seen=80 | risk=LOW
+- db-16 | owner=Engineering | last_seen=11/29/2025 | days_since_last_seen=57 | risk=LOW
+- finance-20 | owner=Engineering | last_seen=1/8/2025 | days_since_last_seen=382 | risk=HIGH
+- finance-4 | owner=HR | last_seen=2/4/2025 | days_since_last_seen=355 | risk=LOW
+- compute-47 | owner=IT | last_seen=10/22/2025 | days_since_last_seen=95 | risk=LOW
+- eng-30 | owner=Security | last_seen=9/16/2025 | days_since_last_seen=131 | risk=LOW
+- hr-24 | owner=HR | last_seen=4/19/2025 | days_since_last_seen=281 | risk=LOW
+- eng-6 | owner=Engineering | last_seen=5/16/2025 | days_since_last_seen=254 | risk=LOW
+- hr-42 | owner=HR | last_seen=5/16/2025 | days_since_last_seen=254 | risk=MEDIUM
+- hr-17 | owner=Executive Administration | last_seen=12/13/2025 | days_since_last_seen=43 | risk=LOW
+- eng-31 | owner=Engineering | last_seen=6/10/2025 | days_since_last_seen=229 | risk=HIGH
+- compute-31 | owner=Executive Administration | last_seen=12/5/2025 | days_since_last_seen=51 | risk=LOW
+- compute-26 | owner=Security | last_seen=9/12/2025 | days_since_last_seen=135 | risk=MEDIUM
+- compute-10 | owner=HR | last_seen=2/25/2025 | days_since_last_seen=334 | risk=MEDIUM
+- hr-11 | owner=HR | last_seen=8/10/2025 | days_since_last_seen=168 | risk=LOW
+- db-12 | owner=IT | last_seen=7/15/2025 | days_since_last_seen=194 | risk=LOW
+- db-24 | owner=Engineering | last_seen=10/7/2025 | days_since_last_seen=110 | risk=LOW
+- web-50 | owner=IT | last_seen=4/22/2025 | days_since_last_seen=278 | risk=HIGH
+- db-37 | owner=Security | last_seen=1/16/2025 | days_since_last_seen=374 | risk=MEDIUM
+- db-4 | owner=Engineering | last_seen=12/19/2025 | days_since_last_seen=37 | risk=MEDIUM
+- finance-40 | owner=Finance | last_seen=11/11/2025 | days_since_last_seen=75 | risk=MEDIUM
+- db-4 | owner=Finance | last_seen=1/20/2025 | days_since_last_seen=370 | risk=HIGH
+- db-10 | owner=Executive Administration | last_seen=11/25/2025 | days_since_last_seen=61 | risk=MEDIUM
+- compute-48 | owner=HR | last_seen=3/7/2025 | days_since_last_seen=324 | risk=LOW
+- db-7 | owner=Executive Administration | last_seen=12/18/2025 | days_since_last_seen=38 | risk=HIGH
+- hr-25 | owner=Security | last_seen=12/6/2025 | days_since_last_seen=50 | risk=LOW
+- eng-28 | owner=IT | last_seen=6/1/2025 | days_since_last_seen=238 | risk=LOW
+- finance-16 | owner=Finance | last_seen=9/16/2025 | days_since_last_seen=131 | risk=MEDIUM
+- hr-37 | owner=Finance | last_seen=10/10/2025 | days_since_last_seen=107 | risk=HIGH
+- finance-30 | owner=Security | last_seen=2/24/2025 | days_since_last_seen=335 | risk=LOW
+- db-11 | owner=Executive Administration | last_seen=6/15/2025 | days_since_last_seen=224 | risk=MEDIUM
+- hr-40 | owner=Finance | last_seen=6/9/2025 | days_since_last_seen=230 | risk=MEDIUM
+- finance-5 | owner=Engineering | last_seen=6/8/2025 | days_since_last_seen=231 | risk=LOW
+- compute-22 | owner=Engineering | last_seen=9/22/2025 | days_since_last_seen=125 | risk=MEDIUM
+- finance-49 | owner=Executive Administration | last_seen=6/14/2025 | days_since_last_seen=225 | risk=LOW
+- finance-30 | owner=IT | last_seen=11/23/2025 | days_since_last_seen=63 | risk=MEDIUM
+- db-34 | owner=Executive Administration | last_seen=4/1/2025 | days_since_last_seen=299 | risk=LOW
+- hr-33 | owner=IT | last_seen=5/11/2025 | days_since_last_seen=259 | risk=MEDIUM
+- web-28 | owner=Executive Administration | last_seen=8/31/2025 | days_since_last_seen=147 | risk=LOW
+- eng-31 | owner=Finance | last_seen=3/12/2025 | days_since_last_seen=319 | risk=LOW
+- hr-44 | owner=HR | last_seen=5/21/2025 | days_since_last_seen=249 | risk=MEDIUM
+- web-22 | owner=Finance | last_seen=1/12/2025 | days_since_last_seen=378 | risk=LOW
+- db-30 | owner=Finance | last_seen=11/12/2025 | days_since_last_seen=74 | risk=MEDIUM
+- compute-28 | owner=Finance | last_seen=1/12/2025 | days_since_last_seen=378 | risk=MEDIUM
+- finance-28 | owner=Engineering | last_seen=11/23/2025 | days_since_last_seen=63 | risk=HIGH
+- compute-44 | owner=Finance | last_seen=10/23/2025 | days_since_last_seen=94 | risk=HIGH
+- hr-10 | owner=Security | last_seen=11/5/2025 | days_since_last_seen=81 | risk=MEDIUM
+- eng-5 | owner=Finance | last_seen=7/5/2025 | days_since_last_seen=204 | risk=LOW
+- finance-21 | owner=HR | last_seen=9/27/2025 | days_since_last_seen=120 | risk=LOW
+- finance-1 | owner=Engineering | last_seen=6/5/2025 | days_since_last_seen=234 | risk=HIGH
+- web-9 | owner=Executive Administration | last_seen=3/27/2025 | days_since_last_seen=304 | risk=MEDIUM
+- web-20 | owner=HR | last_seen=3/26/2025 | days_since_last_seen=305 | risk=LOW
+- finance-29 | owner=Engineering | last_seen=7/26/2025 | days_since_last_seen=183 | risk=MEDIUM
+- compute-3 | owner=Finance | last_seen=3/17/2025 | days_since_last_seen=314 | risk=HIGH
+- finance-18 | owner=Security | last_seen=5/6/2025 | days_since_last_seen=264 | risk=MEDIUM
+- db-23 | owner=Executive Administration | last_seen=4/17/2025 | days_since_last_seen=283 | risk=HIGH
+- web-23 | owner=Security | last_seen=9/6/2025 | days_since_last_seen=141 | risk=LOW
+- compute-45 | owner=Finance | last_seen=7/12/2025 | days_since_last_seen=197 | risk=MEDIUM
+- finance-20 | owner=Finance | last_seen=5/23/2025 | days_since_last_seen=247 | risk=HIGH
+- compute-18 | owner=Engineering | last_seen=5/15/2025 | days_since_last_seen=255 | risk=LOW
+- web-4 | owner=HR | last_seen=8/8/2025 | days_since_last_seen=170 | risk=LOW
+- compute-4 | owner=Finance | last_seen=5/17/2025 | days_since_last_seen=253 | risk=MEDIUM
+- compute-5 | owner=Finance | last_seen=12/7/2025 | days_since_last_seen=49 | risk=MEDIUM
+- hr-22 | owner=Executive Administration | last_seen=11/7/2025 | days_since_last_seen=79 | risk=LOW
+- db-10 | owner=HR | last_seen=4/29/2025 | days_since_last_seen=271 | risk=MEDIUM
+- db-39 | owner=IT | last_seen=11/4/2025 | days_since_last_seen=82 | risk=LOW
+- eng-11 | owner=IT | last_seen=2/11/2025 | days_since_last_seen=348 | risk=HIGH
+- compute-36 | owner=Engineering | last_seen=1/18/2025 | days_since_last_seen=372 | risk=LOW
+- db-43 | owner=HR | last_seen=8/14/2025 | days_since_last_seen=164 | risk=MEDIUM
+- eng-6 | owner=Engineering | last_seen=8/2/2025 | days_since_last_seen=176 | risk=MEDIUM
+- finance-14 | owner=HR | last_seen=5/22/2025 | days_since_last_seen=248 | risk=LOW
+- finance-6 | owner=IT | last_seen=6/18/2025 | days_since_last_seen=221 | risk=MEDIUM
+- eng-22 | owner=Engineering | last_seen=3/19/2025 | days_since_last_seen=312 | risk=MEDIUM
+- eng-8 | owner=Engineering | last_seen=9/24/2025 | days_since_last_seen=123 | risk=MEDIUM
+- compute-14 | owner=Engineering | last_seen=4/8/2025 | days_since_last_seen=292 | risk=HIGH
+- hr-33 | owner=Engineering | last_seen=2/2/2025 | days_since_last_seen=357 | risk=MEDIUM
+- db-15 | owner=Finance | last_seen=10/31/2025 | days_since_last_seen=86 | risk=MEDIUM
+- web-31 | owner=Engineering | last_seen=5/20/2025 | days_since_last_seen=250 | risk=MEDIUM
+- db-35 | owner=HR | last_seen=9/9/2025 | days_since_last_seen=138 | risk=HIGH
+- finance-10 | owner=HR | last_seen=2/7/2025 | days_since_last_seen=352 | risk=MEDIUM
+- finance-20 | owner=Engineering | last_seen=9/8/2025 | days_since_last_seen=139 | risk=LOW
+- compute-49 | owner=Executive Administration | last_seen=5/21/2025 | days_since_last_seen=249 | risk=MEDIUM
+- finance-45 | owner=HR | last_seen=4/7/2025 | days_since_last_seen=293 | risk=LOW
+- eng-8 | owner=Security | last_seen=7/28/2025 | days_since_last_seen=181 | risk=LOW
+- eng-49 | owner=Finance | last_seen=3/19/2025 | days_since_last_seen=312 | risk=MEDIUM
+- db-47 | owner=Security | last_seen=9/10/2025 | days_since_last_seen=137 | risk=MEDIUM
+- finance-48 | owner=Engineering | last_seen=2/12/2025 | days_since_last_seen=347 | risk=LOW
+- web-42 | owner=HR | last_seen=4/3/2025 | days_since_last_seen=297 | risk=LOW
+- eng-19 | owner=Executive Administration | last_seen=12/3/2025 | days_since_last_seen=53 | risk=MEDIUM
+- hr-27 | owner=IT | last_seen=5/1/2025 | days_since_last_seen=269 | risk=HIGH
+- db-29 | owner=Security | last_seen=3/23/2025 | days_since_last_seen=308 | risk=LOW
+- hr-28 | owner=Finance | last_seen=2/18/2025 | days_since_last_seen=341 | risk=LOW
+- compute-24 | owner=Executive Administration | last_seen=5/5/2025 | days_since_last_seen=265 | risk=MEDIUM
+- db-29 | owner=HR | last_seen=10/6/2025 | days_since_last_seen=111 | risk=HIGH
+- web-33 | owner=IT | last_seen=4/11/2025 | days_since_last_seen=289 | risk=MEDIUM
+- finance-37 | owner=Engineering | last_seen=1/6/2025 | days_since_last_seen=384 | risk=MEDIUM
+- db-4 | owner=Security | last_seen=12/15/2025 | days_since_last_seen=41 | risk=MEDIUM
+- eng-42 | owner=Security | last_seen=5/16/2025 | days_since_last_seen=254 | risk=HIGH
+- compute-29 | owner=IT | last_seen=2/27/2025 | days_since_last_seen=332 | risk=LOW
+- web-32 | owner=Finance | last_seen=10/17/2025 | days_since_last_seen=100 | risk=MEDIUM
+- web-46 | owner=IT | last_seen=5/28/2025 | days_since_last_seen=242 | risk=HIGH
+- hr-26 | owner=Finance | last_seen=8/26/2025 | days_since_last_seen=152 | risk=MEDIUM
+- web-16 | owner=IT | last_seen=4/2/2025 | days_since_last_seen=298 | risk=MEDIUM
+- hr-27 | owner=Finance | last_seen=2/26/2025 | days_since_last_seen=333 | risk=LOW
+- compute-21 | owner=HR | last_seen=4/19/2025 | days_since_last_seen=281 | risk=MEDIUM
+- eng-21 | owner=Security | last_seen=2/7/2025 | days_since_last_seen=352 | risk=MEDIUM
+- web-48 | owner=IT | last_seen=5/11/2025 | days_since_last_seen=259 | risk=LOW
+- hr-49 | owner=HR | last_seen=9/6/2025 | days_since_last_seen=141 | risk=LOW
+- eng-29 | owner=Finance | last_seen=3/13/2025 | days_since_last_seen=318 | risk=MEDIUM
+- db-6 | owner=Executive Administration | last_seen=5/28/2025 | days_since_last_seen=242 | risk=MEDIUM
+- finance-13 | owner=Finance | last_seen=11/24/2025 | days_since_last_seen=62 | risk=MEDIUM
+- db-30 | owner=Security | last_seen=7/24/2025 | days_since_last_seen=185 | risk=LOW
+- finance-39 | owner=Executive Administration | last_seen=8/17/2025 | days_since_last_seen=161 | risk=HIGH
+- hr-38 | owner=Finance | last_seen=12/18/2025 | days_since_last_seen=38 | risk=HIGH
+- web-42 | owner=Security | last_seen=10/25/2025 | days_since_last_seen=92 | risk=MEDIUM
+- web-29 | owner=Finance | last_seen=12/26/2025 | days_since_last_seen=30 | risk=LOW
+- compute-24 | owner=IT | last_seen=10/30/2025 | days_since_last_seen=87 | risk=LOW
+- web-12 | owner=IT | last_seen=12/18/2025 | days_since_last_seen=38 | risk=MEDIUM
+- db-42 | owner=Executive Administration | last_seen=10/4/2025 | days_since_last_seen=113 | risk=LOW
+- eng-24 | owner=HR | last_seen=3/7/2025 | days_since_last_seen=324 | risk=MEDIUM
+- hr-23 | owner=Engineering | last_seen=11/10/2025 | days_since_last_seen=76 | risk=MEDIUM
+- web-7 | owner=Executive Administration | last_seen=6/13/2025 | days_since_last_seen=226 | risk=MEDIUM
+- db-19 | owner=Engineering | last_seen=8/3/2025 | days_since_last_seen=175 | risk=LOW
+- hr-5 | owner=Security | last_seen=11/20/2025 | days_since_last_seen=66 | risk=LOW
+- db-46 | owner=Executive Administration | last_seen=12/5/2025 | days_since_last_seen=51 | risk=LOW
+- finance-15 | owner=Security | last_seen=7/31/2025 | days_since_last_seen=178 | risk=HIGH
+- web-48 | owner=HR | last_seen=9/2/2025 | days_since_last_seen=145 | risk=MEDIUM
+- hr-48 | owner=Engineering | last_seen=12/12/2025 | days_since_last_seen=44 | risk=LOW
+- compute-16 | owner=IT | last_seen=5/6/2025 | days_since_last_seen=264 | risk=LOW
+- compute-15 | owner=Security | last_seen=8/11/2025 | days_since_last_seen=167 | risk=MEDIUM
+- hr-4 | owner=Finance | last_seen=6/29/2025 | days_since_last_seen=210 | risk=LOW
+- db-23 | owner=IT | last_seen=8/7/2025 | days_since_last_seen=171 | risk=MEDIUM
+- compute-7 | owner=Engineering | last_seen=12/4/2025 | days_since_last_seen=52 | risk=HIGH
+- finance-15 | owner=Executive Administration | last_seen=12/21/2025 | days_since_last_seen=35 | risk=MEDIUM
+- finance-40 | owner=Executive Administration | last_seen=7/19/2025 | days_since_last_seen=190 | risk=LOW
+- eng-6 | owner=Finance | last_seen=11/22/2025 | days_since_last_seen=64 | risk=MEDIUM
+- finance-4 | owner=HR | last_seen=11/22/2025 | days_since_last_seen=64 | risk=HIGH

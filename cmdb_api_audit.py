@@ -1,4 +1,8 @@
 import requests
+
+# Importing OS module to access environment variables
+import os
+
 # Importing specific exceptions from requests module Clallenge A
 from requests.exceptions import ConnectionError, Timeout, RequestException
 
@@ -9,7 +13,7 @@ from datetime import datetime
 API_URL = "https://my.api.mockaroo.com/ironclad/cmdb.json"
 
 headers = {
-    "X-API-Key": "cf7bbbd0" # Loading API key into headers
+    "X-API-Key": os.environ.get("YOUR_MOCKAROO_KEY") # Fixed the environment variable name
 }
 
 # Changed the Response = Request for challenge A
@@ -42,7 +46,6 @@ if response.status_code != 200:
     raise SystemExit
 
 # Parse the JSON response
-data = response.json()
 print("Type of data:", type(data))
 
 if isinstance(data, list) and data:
